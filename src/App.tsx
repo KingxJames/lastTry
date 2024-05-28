@@ -15,6 +15,7 @@ import Header from './components/Header/Header';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded';
 import DownloadRoundedIcon from '@mui/icons-material/DownloadRounded';
+import Users from './pages/Users/Users';
 
 // import OrderTable from './components/OrderTable';
 // import OrderList from './components/OrderList';
@@ -24,10 +25,10 @@ interface AppProps {}
 
 export const App: React.FC<AppProps> = () => {
   return (
-    <CssVarsProvider disableTransitionOnChange>
+    <div>
       <CssBaseline />
       <Box sx={{ display: 'flex', minHeight: '100dvh' }}>
-        {/* <Header /> */}
+        <Header />
         <Sidebar />
         <Box
           component="main"
@@ -103,11 +104,12 @@ export const App: React.FC<AppProps> = () => {
           {/* Main content goes here */}
           <Box sx={{ flex: 1 }}>
             {/* Replace the following line with your actual main content */}
+            {/* <Users /> */}
             <Typography>Your main content goes here</Typography>
           </Box>
         </Box>
       </Box>
-    </CssVarsProvider>
+      </div>
   );
 };
 
