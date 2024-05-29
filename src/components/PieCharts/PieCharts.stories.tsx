@@ -1,11 +1,11 @@
-// DashboardBox.stories.tsx
+// PieCharts.stories.tsx
 import type { Meta, StoryObj } from "@storybook/react";
-import  { DashboardBox } from './DashboardBox';
+import  { PieCharts } from './PieCharts';
 
 
-const meta: Meta<typeof DashboardBox> = {
-  title: 'components/DashboardBox', 
-  component: DashboardBox,
+const meta: Meta<typeof PieCharts> = {
+  title: 'components/PieCharts', 
+  component: PieCharts,
   tags: ['autodocs'],
   parameters: {
     layout: 'centered',
@@ -18,5 +18,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
     args: {
+    
     },
   };

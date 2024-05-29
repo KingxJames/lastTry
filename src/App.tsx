@@ -16,6 +16,7 @@ import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded';
 import DownloadRoundedIcon from '@mui/icons-material/DownloadRounded';
 import Users from './pages/Users/Users';
+import Dashboard from './pages/Dashboard/Dashboard';
 
 // import OrderTable from './components/OrderTable';
 // import OrderList from './components/OrderList';
@@ -105,7 +106,9 @@ export const App: React.FC<AppProps> = () => {
           <Box sx={{ flex: 1 }}>
             {/* Replace the following line with your actual main content */}
             {/* <Users /> */}
+            <Dashboard />
             <Typography>Your main content goes here</Typography>
+
           </Box>
         </Box>
       </Box>

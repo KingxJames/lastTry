@@ -1,11 +1,11 @@
-// DashboardBox.stories.tsx
+// Singles.stories.tsx
 import type { Meta, StoryObj } from "@storybook/react";
-import  { DashboardBox } from './DashboardBox';
+import  { Singles } from './Singles';
 
 
-const meta: Meta<typeof DashboardBox> = {
-  title: 'components/DashboardBox', 
-  component: DashboardBox,
+const meta: Meta<typeof Singles> = {
+  title: 'components/Singles', 
+  component: Singles,
   tags: ['autodocs'],
   parameters: {
     layout: 'centered',
